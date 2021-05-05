@@ -72,3 +72,13 @@ img.ex-9-img:hover {
     transform: scale(1.5);
     border-radius: 50%;
 }
+
+i.ex-10-icon  {
+    animation: loading 2s ease-out infinite;
+}
+
+@keyframes loading {
+    100% {
+        transform:rotate(360deg)
+    }
+}
