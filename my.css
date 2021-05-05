@@ -53,3 +53,12 @@ img.ex-7-img {
 img.ex-7-img:hover {
     filter: grayscale(2) brightness(1.2);
 }
+
+img.ex-8-img {
+    transition: border-radius 1s;
+}
+
+img.ex-8-img:hover {
+    filter: hue-rotate(90deg) saturate(80%);
+    border-radius: 12px;
+}
