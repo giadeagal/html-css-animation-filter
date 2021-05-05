@@ -113,6 +113,75 @@ i.ex-11-icon:hover {
     }
 }
 
-.ex-13-button {
-    position: relative;
+/* Esercizio 13 */
+.ex-13-top-white {
+    animation: circuit-top 750ms linear infinite ;
+}
+
+@keyframes circuit-top {
+    1% {
+        left: 0;
+        top: -5px;
+    }
+
+    25% {
+        left: calc(100% - 20px);
+        top: -5px;
+    }
+
+    50% {
+        left: calc(100% - 20px);
+        top: calc(100% - 2px);
+    }
+
+    75% {
+        left: 0;
+        top: calc(100% - 2px);
+    }
+
+    90% {
+        left: -15px;
+        top: -5px;
+    }
+
+    100% {
+        left: 0;
+        top: -5px;
+    }
+}
+
+.ex-13-bottom-white {
+    animation: circuit-bottom 750ms linear infinite;
+}
+
+@keyframes circuit-bottom {
+    1% {
+        right: 20px;
+        bottom: -5px;
+    }
+
+    25% {
+        right: calc(100% - 20px);
+        bottom: -5px
+    }
+
+    50% {
+        right: calc(100% - 20px);
+        bottom: 100%;
+    }
+
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+
+    90% {
+        right: -5px;
+        bottom: -5px;
+    }
+
+    100% {
+        bottom: -5px;
+        right: 20%;
+    }
 }
