@@ -92,3 +92,27 @@ i.ex-11-icon:hover {
         transform:rotate(270deg);
     }
 }
+
+.ex-12-top-white {
+    animation: slide-r 400ms ease-out infinite alternate;
+}
+
+@keyframes slide-r {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.ex-12-bottom-white {
+    animation: slide-l 400ms ease-out infinite alternate;
+}
+
+@keyframes slide-l {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.ex-13-button {
+    position: relative;
+}
