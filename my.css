@@ -55,10 +55,20 @@ img.ex-7-img:hover {
 }
 
 img.ex-8-img {
-    transition: border-radius 1s;
+    transition: all 5s;
 }
 
 img.ex-8-img:hover {
     filter: hue-rotate(90deg) saturate(80%);
-    border-radius: 12px;
+    border-radius: 24px;
+}
+
+img.ex-9-img {
+    transition: all 5s;
+}
+
+img.ex-9-img:hover {
+    filter: contrast(110%) sepia(.5);
+    transform: scale(1.5);
+    border-radius: 50%;
 }
